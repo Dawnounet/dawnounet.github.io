@@ -32,9 +32,9 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="nav-collapse">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#tabPlaythrough" data-toggle="tab">monsters</a></li>
-          <li><a href="#tabChecklists" data-toggle="tab">Boss et monsters Unique</a></li>
-          <li><a href="#tabWeaponsShields" data-toggle="tab">Archimonsters</a></li>
+          <li class="active"><a href="#tabMonsters" data-toggle="tab">Monstres</a></li>
+          <li><a href="#tabGuardians" data-toggle="tab">Boss et monstres Unique</a></li>
+          <li><a href="#tabWeaponsShields" data-toggle="tab">Archimonstres</a></li>
     		  <li><a href="#tabHelp" data-toggle="tab"><span class="glyphicon glyphicon-question-sign"></span></a></li>
     		  <li><a href="#tabOptions" data-toggle="tab"><span class="glyphicon glyphicon-cog"></span></a></li>
         </ul><!-- /.nav.navbar-nav -->
@@ -50,10 +50,10 @@
     </div>
 
     <div class="tab-content">
-      <!-- PLAYTHROUGH START -->
-      <div class="tab-pane active" id="tabPlaythrough">
+      <!-- MONSTERS START -->
+      <div class="tab-pane active" id="tabMonsters">
         
-        <h2>Liste des monsters <span id="monsters_overall_total"></span></h2>
+        <h2>Liste des monstres <span id="monsters_overall_total"></span></h2>
         <ul class="table_of_contents">
           <li><a href="#etape1">Etape 1</a> <span id="monsters_nav_totals_1"></span></li>
           <li><a href="#etape2">Etape 2</a> <span id="monsters_nav_totals_2"></span></li>
@@ -440,25 +440,83 @@
       </div>
     </div>
 
-    <!-- GUARDIENS START -->
-    <div class="tab-pane" id="tabChecklists">
-        <h2>Achievement Checklists <span id="checklist_overall_total"></span></h2>
+    <!-- GUARDIANS START -->
+    <div class="tab-pane" id="tabGuardians">
+        <h2>Boss et monstres uniques <span id="guardians_overall_total"></span></h2>
         <ul class="table_of_contents">
-          <li><a href="#Master_of_Expression">Master of Expression</a>: Learn all gestures <span id="checklist_nav_totals_1"></span></li>
-          <li><a href="#Master_of_Sorceries">Master of Sorceries</a>: Acquire all sorceries <span id="checklist_nav_totals_2"></span></li>
-          <li><a href="#Master_of_Pyromancies">Master of Pyromancies</a>: Acquire all pyromancies <span id="checklist_nav_totals_3"></span></li>
-          <li><a href="#Master_of_Miracles">Master of Miracles</a>: Acquire all miracles <span id="checklist_nav_totals_4"></span></li>
-          <li><a href="#Master_of_Rings">Master of Rings</a>: Acquire all rings <span id="checklist_nav_totals_5"></span></li>
-		      <li><a href="#Master_of_Infusion">Master of Infusion</a>: Perform all forms of infusion <span id="checklist_nav_totals_6"></span></li>
+          <li><a href="#etape17">Etape 17</a> <span id="guardians_nav_totals_1"></span></li>
+          <li><a href="#etape18">Etape 18</a> <span id="guardians_nav_totals_2"></span></li>
+          <li><a href="#etape19">Etape 19</a> <span id="guardians_nav_totals_3"></span></li>
         </ul>
 
         <hr />
 
-        <div class="form-group">
-          <input type="search" id="item_search" class="form-control" placeholder="Start typing to filter results..." />
-        </div>
+        <div id="guardians_list">
+		
+		<h3 id="etape17"><a href="#etape17_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>Etape 17 <span id="guardians_totals_1"></span></h3>
+        <ul id="etape17_col" class="collapse in">
+			<li data-id="guardians_1_1">Mob l'Eponge</li>
+			<li data-id="guardians_1_2">Bouftou Royal</li>
+			<li data-id="guardians_1_3">Tournesol Affame</li>
+			<li data-id="guardians_1_4">Gelee Royale Bleue</li>
+			<li data-id="guardians_1_5">Gelee Royale Menthe</li>
+			<li data-id="guardians_1_6">Shin Larve</li>
+			<li data-id="guardians_1_7">Wabbit GM</li>
+			<li data-id="guardians_1_8">Scarabosse Dore</li>
+			<li data-id="guardians_1_9">Bworkette</li>
+			<li data-id="guardians_1_10">Dragon Cochon</li>
+			<li data-id="guardians_1_11">Mominotor</li>
+			<li data-id="guardians_1_12">Deminoboule</li>
+			<li data-id="guardians_1_13">Tofu Royal</li>
+			<li data-id="guardians_1_14">Blop Coco Royal</li>
+			<li data-id="guardians_1_15">Blop Griotte Royal</li>
+			<li data-id="guardians_1_16">Blop Indigo Royal</li>
+			<li data-id="guardians_1_17">Blop Reinette Royal</li>
+			<li data-id="guardians_1_18">Rat Noir</li>
+			<li data-id="guardians_1_19">Rat Blanc</li>
+			<li data-id="guardians_1_20">Minotoror</li>
+        </ul>
 
-        <div id="item_list">
+        <h3 id="etape18"><a href="#etape18_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>Etape 18 <span id="guardians_totals_2"></span></h3>
+        <ul id="etape18_col" class="collapse in">
+			<li data-id="guardians_2_1">Hell Mina</li>
+			<li data-id="guardians_2_2">Tanukoui San</li>
+			<li data-id="guardians_2_3">Craqueleur Legendaire</li>
+			<li data-id="guardians_2_4">Gardienne des Egouts</li>
+			<li data-id="guardians_2_5">Gelee Royale Fraise</li>
+			<li data-id="guardians_2_6">Maître Corbac</li>
+			<li data-id="guardians_2_7">Blop Multicolore Royal</li>
+			<li data-id="guardians_2_8">Corailleur Magistral</li>
+			<li data-id="guardians_2_9">Gourlo le Terrible</li>
+			<li data-id="guardians_2_10">Meulou</li>
+			<li data-id="guardians_2_11">Wa Wabbit</li>
+			<li data-id="guardians_2_12">Moon</li>
+			<li data-id="guardians_2_13">Koulosse</li>
+			<li data-id="guardians_2_14">Skeunk</li>
+			<li data-id="guardians_2_15">Abraknyde Ancestral</li>
+			<li data-id="guardians_2_16">Maître Pandore</li>
+			<li data-id="guardians_2_17">Tynril Ahuri</li>
+			<li data-id="guardians_2_18">Tynril Consterne</li>
+			<li data-id="guardians_2_19">Tynril Deconcerte</li>
+			<li data-id="guardians_2_20">Tynril Perfide</li>
+        </ul>
+
+        <h3 id="etape19"><a href="#etape19_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>Etape 19 <span id="guardians_totals_3"></span></h3>
+        <ul id="etape19_col" class="collapse in">
+			<li data-id="guardians_3_1">Gelee Royale Citron</li>
+			<li data-id="guardians_3_2">Touchparak</li>
+			<li data-id="guardians_3_3">Bworker</li>
+			<li data-id="guardians_3_4">Sphincter Cell</li>
+			<li data-id="guardians_3_5">Minotot</li>
+			<li data-id="guardians_3_6">Silf le Rasboul Majeur</li>
+			<li data-id="guardians_3_7">Crocabulia</li>
+			<li data-id="guardians_3_8">Peki Peki</li>
+			<li data-id="guardians_3_9">Chêne Mou</li>
+			<li data-id="guardians_3_10">Ougah</li>
+			<li data-id="guardians_3_11">Kimbo</li>
+        </ul>
+		
+		</div>
           <h3 id="Master_of_Expression"><a href="#Master_of_Expression_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>Master of Expression: Learn all <a href="http://darksouls3.wiki.fextralife.com/Gestures">gestures</a> <span id="checklist_totals_1"></span></h3>
           <ul id="Master_of_Expression_col" class="collapse in">
             <li data-id="checklist_1_1"><strong>Beckon</strong>: Talk to <a href="http://darksouls3.wiki.fextralife.com/Yoel+of+Londor">Yoel of Londor</a> not far from the Foot of the High Wall bonfire</li>
